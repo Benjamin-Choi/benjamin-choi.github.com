@@ -13,12 +13,12 @@ GameStates.Preloader.prototype = {
         this.load.setPreloadSprite(this.preloadBar);
         // load all game assets
         // images, spritesheets, atlases, audio etc..
-        this.load.spritesheet('student', '/assets/spritesheets/student.png', 64, 64, 36);
-        this.load.image('table', '/assets/bg_platform.png');
+        this.load.spritesheet('student', 'assets/spritesheets/student.png', 64, 64, 36);
+        this.load.image('table', 'assets/bg_platform.png');
         
         for (var i = 0; i < this.suit.length; i++) {
             for (var j = 0; j < this.ranks.length; j++) {
-                this.load.image(this.ranks[j] + '_of_' + this.suit[i], '/assets/svg_card/' + this.ranks[j] + '_of_' + this.suit[i] + '.svg');
+                this.load.image(this.ranks[j] + '_of_' + this.suit[i], 'assets/svg_card/' + this.ranks[j] + '_of_' + this.suit[i] + '.svg');
             }
             
         }
