@@ -1,0 +1,6 @@
+D:\working\Phaser_poker\Phaser_poker\bin\Phaser_poker.dll.config
+D:\working\Phaser_poker\Phaser_poker\bin\Phaser_poker.dll
+D:\working\Phaser_poker\Phaser_poker\bin\Phaser_poker.pdb
+D:\working\Phaser_poker\Phaser_poker\obj\Debug\Phaser_poker.csprojResolveAssemblyReference.cache
+D:\working\Phaser_poker\Phaser_poker\obj\Debug\Phaser_poker.dll
+D:\working\Phaser_poker\Phaser_poker\obj\Debug\Phaser_poker.pdb

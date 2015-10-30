@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{A1DF7ECC-E122-4F42-A95B-E7141112F2B5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.1</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="app.js" />
+    <Content Include="assets\phaser2.png" />
+    <Content Include="assets\preloader-bar.png" />
+    <Content Include="assets\svg_card\10_of_clubs.svg" />
+    <Content Include="assets\svg_card\10_of_diamonds.svg" />
+    <Content Include="assets\svg_card\10_of_hearts.svg" />
+    <Content Include="assets\svg_card\10_of_spades.svg" />
+    <Content Include="assets\svg_card\2_of_clubs.svg" />
+    <Content Include="assets\svg_card\2_of_diamonds.svg" />
+    <Content Include="assets\svg_card\2_of_hearts.svg" />
+    <Content Include="assets\svg_card\2_of_spades.svg" />
+    <Content Include="assets\svg_card\3_of_clubs.svg" />
+    <Content Include="assets\svg_card\3_of_diamonds.svg" />
+    <Content Include="assets\svg_card\3_of_hearts.svg" />
+    <Content Include="assets\svg_card\3_of_spades.svg" />
+    <Content Include="assets\svg_card\4_of_clubs.svg" />
+    <Content Include="assets\svg_card\4_of_diamonds.svg" />
+    <Content Include="assets\svg_card\4_of_hearts.svg" />
+    <Content Include="assets\svg_card\4_of_spades.svg" />
+    <Content Include="assets\svg_card\5_of_clubs.svg" />
+    <Content Include="assets\svg_card\5_of_diamonds.svg" />
+    <Content Include="assets\svg_card\5_of_hearts.svg" />
+    <Content Include="assets\svg_card\5_of_spades.svg" />
+    <Content Include="assets\svg_card\6_of_clubs.svg" />
+    <Content Include="assets\svg_card\6_of_diamonds.svg" />
+    <Content Include="assets\svg_card\6_of_hearts.svg" />
+    <Content Include="assets\svg_card\6_of_spades.svg" />
+    <Content Include="assets\svg_card\7_of_clubs.svg" />
+    <Content Include="assets\svg_card\7_of_diamonds.svg" />
+    <Content Include="assets\svg_card\7_of_hearts.svg" />
+    <Content Include="assets\svg_card\7_of_spades.svg" />
+    <Content Include="assets\svg_card\8_of_clubs.svg" />
+    <Content Include="assets\svg_card\8_of_diamonds.svg" />
+    <Content Include="assets\svg_card\8_of_hearts.svg" />
+    <Content Include="assets\svg_card\8_of_spades.svg" />
+    <Content Include="assets\svg_card\9_of_clubs.svg" />
+    <Content Include="assets\svg_card\9_of_diamonds.svg" />
+    <Content Include="assets\svg_card\9_of_hearts.svg" />
+    <Content Include="assets\svg_card\9_of_spades.svg" />
+    <Content Include="assets\svg_card\ace_of_clubs.svg" />
+    <Content Include="assets\svg_card\ace_of_diamonds.svg" />
+    <Content Include="assets\svg_card\ace_of_hearts.svg" />
+    <Content Include="assets\svg_card\ace_of_spades.svg" />
+    <Content Include="assets\svg_card\ace_of_spades2.svg" />
+    <Content Include="assets\svg_card\black_joker.svg" />
+    <Content Include="assets\svg_card\jack_of_clubs.svg" />
+    <Content Include="assets\svg_card\jack_of_clubs2.svg" />
+    <Content Include="assets\svg_card\jack_of_diamonds.svg" />
+    <Content Include="assets\svg_card\jack_of_diamonds2.svg" />
+    <Content Include="assets\svg_card\jack_of_hearts.svg" />
+    <Content Include="assets\svg_card\jack_of_hearts2.svg" />
+    <Content Include="assets\svg_card\jack_of_spades.svg" />
+    <Content Include="assets\svg_card\jack_of_spades2.svg" />
+    <Content Include="assets\svg_card\king_of_clubs.svg" />
+    <Content Include="assets\svg_card\king_of_clubs2.svg" />
+    <Content Include="assets\svg_card\king_of_diamonds.svg" />
+    <Content Include="assets\svg_card\king_of_diamonds2.svg" />
+    <Content Include="assets\svg_card\king_of_hearts.svg" />
+    <Content Include="assets\svg_card\king_of_hearts2.svg" />
+    <Content Include="assets\svg_card\king_of_spades.svg" />
+    <Content Include="assets\svg_card\king_of_spades2.svg" />
+    <Content Include="assets\svg_card\queen_of_clubs.svg" />
+    <Content Include="assets\svg_card\queen_of_clubs2.svg" />
+    <Content Include="assets\svg_card\queen_of_diamonds.svg" />
+    <Content Include="assets\svg_card\queen_of_diamonds2.svg" />
+    <Content Include="assets\svg_card\queen_of_hearts.svg" />
+    <Content Include="assets\svg_card\queen_of_hearts2.svg" />
+    <Content Include="assets\svg_card\queen_of_spades.svg" />
+    <Content Include="assets\svg_card\queen_of_spades2.svg" />
+    <Content Include="assets\svg_card\red_joker.svg" />
+    <Content Include="boot.js" />
+    <Content Include="game.js" />
+    <Content Include="index.html" />
+    <Content Include="lib\phaser.js" />
+    <Content Include="lib\phaser.min.js" />
+    <Content Include="mainmenu.js" />
+    <Content Include="preloader.js" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="lib\phaser.map" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\spritesheets\" />
+    <Folder Include="assets\tilemaps\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Phaser_poker</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25225</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25225/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>
